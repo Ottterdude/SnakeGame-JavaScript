@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SnakeGame</title>
+    <link rel="stylesheet" href="styleSnake.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="stage" width="600" height="600" ;></canvas>
+    <div style="margin: 0; vertical-align: top; font-family: 'Roboto';  display: inline-block">
+        <h1>
+            <p style="margin-top: 0;">Setinhas para movimentação</p>
+        </h1>
+        <div>
+            <button class="buttonsMec" onclick="buttonClick('I')" id="I">Informações Internas</button><br><br>
+            <button class="buttonsMec" onclick="buttonClick('G')" id="G">Ativar/Desativar Gravidade</button>
+            <button class="buttonsMec" onclick="buttonClick('M')" id="M">Movimentação Livre</button>
+            <button class="buttonsMec" onclick="buttonClick('MORTE')" id="MORTE">Morte Livre</button><br><br>
+            <button class="buttonsMec2" onclick="buttonClick('PT')" id="PT">Parede Teleporte</button>
+            <button class="buttonsMec2" onclick="buttonClick('PB')" id="PB">Parede de Borracha</button>
+            <button class="buttonsMec2" onclick="buttonClick('PM')" id="PM">Parede da Morte</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
